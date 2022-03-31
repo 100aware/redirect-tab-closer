@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Redirect Tab Closer",
-  "description": "This extension automatically closes the launched window for Bluejeans/Zoom meetings + Slack URLs.",
-  "version": "0.3",
+  "description": "This extension automatically closes the launched window for Bluejeans/Zoom/WebEx meetings + Slack URLs.",
+  "version": "0.4",
   "icons": {
     "16": "assets/icon-16.png",
     "32": "assets/icon-32.png",
@@ -23,7 +23,9 @@
         "https://zoom.us/s/*",
         "https://*.zoom.us/s/*",
         "https://bluejeans.com/*",
-        "https://*.slack.com/archives/*"
+        "https://*.slack.com/archives/*",
+        "https://*.webex.com/webappng/sites/*/meeting/info/*",
+        "https://*.webex.com/wbxmjs/joinservice/*"
       ],
       "js": [
         "content.js"
